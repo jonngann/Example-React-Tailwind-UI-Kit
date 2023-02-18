@@ -1,0 +1,17 @@
+{
+    "include": [
+        "./src/*"
+    ],
+    "compilerOptions": {
+        "strict": true,
+        "esModuleInterop": true,
+        "allowUnreachableCode": false,
+        "forceConsistentCasingInFileNames": true,
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "jsx": "react"
+    }
+}
